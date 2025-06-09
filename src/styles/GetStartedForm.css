@@ -1,0 +1,147 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.1);
+  z-index: 1050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass-modal {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.glass-modal h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.glass-modal p {
+  font-size: 0.9rem;
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.glass-modal .form-label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  display: block;
+  text-align: left;
+}
+
+.glass-modal .form-control {
+  background-color: #ffe6ea;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.9rem;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.glass-modal .form-check {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0.7rem;
+  background-color: #ffe6ea;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+  width: 100%;
+}
+
+.glass-modal .form-check-input[type="checkbox"],
+.glass-modal .form-check-input[type="radio"] {
+  appearance: none;
+  background-color: #ffe6ea;
+  border: 2px solid #ff3e5f;
+  border-radius: 4px;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+}
+
+.glass-modal .form-check-input[type="radio"] {
+  border-radius: 50%;
+}
+
+.glass-modal .form-check-input:checked::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 8px;
+  height: 8px;
+  background-color: #ff3e5f;
+  border-radius: 50%;
+  display: block;
+}
+
+.glass-modal .form-check-input[type="checkbox"]:checked::before {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+}
+
+.glass-modal .form-check-label {
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.glass-modal .btn-danger {
+  background-color: #ff3e5f;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.glass-modal .btn-danger:hover {
+  background-color: #e7334f;
+}
+
+@media (max-width: 576px) {
+  .glass-modal {
+    margin: 1rem;
+    padding: 1.25rem;
+  }
+
+  .glass-modal .row {
+    flex-direction: column;
+  }
+
+  .glass-modal .col {
+    width: 100%;
+    margin-bottom: 0.9rem;
+  }
+}
