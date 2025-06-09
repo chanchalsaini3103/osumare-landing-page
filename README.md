@@ -1,12 +1,34 @@
-# React + Vite
+# 🌐 Osumare Internal Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive internal landing page developed for Osumare Marketing Solutions as part of a front-end development assignment.
 
-Currently, two official plugins are available:
+## 🚀 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This landing page was built to match the provided Figma design with a focus on:
 
-## Expanding the ESLint configuration
+- ✨ Pixel-perfect layout implementation  
+- 📱 Mobile, tablet, and desktop responsiveness  
+- ⚡ Optimized performance and lazy loading  
+- 🌍 Cross-browser compatibility  
+- ♿ Accessibility compliance (WCAG)  
+- ✅ Valid React code with best practices
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Technologies Used
+
+- React.js
+- Bootstrap 5
+- HTML5 + CSS3
+- JavaScript (ES6+)
+
+## 🖥️ Live Demo
+https://osumare-landing-page.onrender.com
+
+## 📂 Getting Started
+
+Clone the repo and run it locally:
+
+```bash
+git clone https://github.com/yourusername/osumare-landing-page.git
+cd osumare-landing-page
+npm install
+npm start
